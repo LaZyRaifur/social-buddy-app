@@ -1,0 +1,239 @@
+*:focus{
+    outline:none;
+}
+.facebook-wrap{
+    position:relative;
+    width: 510px;
+    height: 295px;
+    border: solid 1px #ddd;
+    margin: 20px auto;
+}
+.avatar img{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 38px;
+    height: 38px !important;
+    height: auto;
+    border-radius: 200px;
+}
+.fullname{
+    cursor: pointer;
+    position: absolute;
+    top: 3%;
+    left: 70px;
+    font-weight: bold;
+    color: #365899;
+    font-family: helvetica;
+}
+.action a{
+    text-decoration: none;
+    color: #365899
+
+    
+}
+.action a:hover{
+    text-decoration: underline;
+}
+.date a {
+    text-decoration:none;
+    color: #90949c;
+}
+.date a:hover{
+    text-decoration: underline;
+}
+.date{
+    position:absolute;
+    top: 9%;
+    font-size: 14px;
+    left: 70px;
+}
+
+.shared-form{
+    position:absolute;
+    top: 9%;
+    font-size: 14px;
+    left: 185px;
+}
+
+.shared-form a{
+    color: #90949c;
+    text-decoration: none;
+}
+.shared-form a:hover{
+    text-decoration: underline;
+}
+.shared-form:before{
+    content:".";
+
+    
+}
+.shared-form:after{
+    content:".";
+}
+.fa-users{
+    position:absolute;
+    top: 9%;
+    right: 22px;
+}
+
+.fa-users:before{
+    color: #90949c;
+    position:absolute;
+}
+.fa-caret-down:before{
+    color: #90949c;
+
+}
+.users-ico{
+    display:flex;
+    position:absolute;
+    top: 9%;
+    left: 275px;
+}
+.fa-caret-down{
+    position:absolute;
+    top: 9%;
+    left: 0px;
+}
+.users-ico:hover{
+    background: #E9EBEE;
+}
+.fa-ellipsis-h:before{
+    color: #90949c;
+    position:absolute;
+    top: 5%;
+    right: 20px;
+    cursor: pointer;
+}
+.main-share{
+    border:solid 1px #ddd;
+    margin: -10px 15px;
+    box-shadow: 1px 1px 1px #ddd;
+    display: flex;
+    position:relative;
+    cursor:pointer;
+}
+.yt-link-name{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1200px;
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: 500;
+}
+.yt-description{
+    position:absolute;
+    top: 45%;
+    margin-left:25%;
+    font-size: 12px;
+    font-family: helvetica;
+}
+.yt-link{
+    position:absolute;
+    top: 88%;
+    left: 120px;
+    color: #90949c;
+    font-size: 13px;
+}
+.yt-like{
+    position: absolute;
+    top: 110%;
+    left: 5px;
+    color: #616770;
+    font-weight: 600;
+    font-size: 14px;
+}
+.fa-thumbs-o-up:before{
+    color: #616770;
+
+
+
+}
+.fb-comments{
+    position: absolute;
+    top: 110%;
+    left: 140px;
+    color:#616770;
+    font-weight:600;
+    font-size: 14px;
+}
+.fb-share{
+    position: absolute;
+    top: 110%;
+    left: 260px;
+    color: #616770;
+    font-weight: 600;
+    font-size: 14px;
+}
+.fa-cm-avatar img{
+    position: absolute;
+    top: 85%;
+    left: 25px;
+    border-radius: 110px;
+    width: 38px;
+    height: 38px;
+    border: solid 1px #ddd;
+}
+.footer-comment{
+    background-color: #fff;
+    position: absolute;
+    top: 88%;
+    left: 90px;
+    border: solid 1px #ddd;
+    width:80%;
+    border-radius:50px;
+    padding: 5px 0;
+}
+.fa-bottom-bar{
+
+}
+.fa-cm-input input{
+    border: none;
+    margin-left: 15px;
+    width: 250px;
+}
+.fm-cm-input input:focus{
+    outline:none;
+}
+.fa-ppl-like{
+    position: absolute;
+    top: 75%;
+    left: 20px;
+
+}
+.footer-cm-icons{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+.fa-smile-o:before{
+    color: #616770;
+}
+.fa-camera-retro:before{
+    color: #616770;
+}
+.fa-picture-o:before{
+    color: #616770;
+}
+.fa-sticky-note-0:before{
+    color: #616770;
+}
+.comment-section{
+    background:#F6F7F9;
+    height: 80px;
+    margin-top:47px;
+}
+.fa-thumbs-up{
+    border:solid 1px;
+    padding:3px;
+    border-radius: 50px;
+
+}
+.fa-ppl-like{
+    background:#F6F7F9;
+    cursor:pointer;
+    color:#365899;
+    font-size: 12px;
+    font-family: helvetica;
+}
