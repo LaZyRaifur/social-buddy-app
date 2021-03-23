@@ -1,8 +1,10 @@
 import React from 'react';
+import Comment from '../Comment/Comment';
 import './Post.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Post = (props) => {
-    const {id,title,body,cEmail,cName} = props.post;
+    const {id,title,body,cEmail,cName} = props.data;
     return (
         <div className="facebook-wrap">
             <div className="header">
@@ -13,14 +15,14 @@ const Post = (props) => {
                 <div className="fullname">
                      {id}
                 </div>
-                <div><small>Shared</small>  <a href="#">Connection</a>.
+                <div><small>Shared  <a href="#">Connected</a>.</small> 
                  </div>  
                  <br/> 
                  <div className="date">
-                     <a href="#">25. September 2021</a>
+                     <a href="#">25 September 2021</a>
                      </div> 
                      <div className="shared-form">
-                         <a href="#">YouTube</a>
+                         <small><a href="#">YouTube</a></small>
                      </div>
                      <div className="users-ico">
                          <a href="#"><i className="fa fa-users"></i></a>
@@ -47,18 +49,19 @@ const Post = (props) => {
                     </p>
 
                 </div>
+                <br/>
                 <div className="yt-link">
                     JsonApiPlaceholder
 
                 </div>
                 <div className="footer-actions">
-                    <div className="fb-like">
-                        <i className="fa fa-comment-o fa-lg"></i>
+                    <div className="far fa-thumbs-up">
+                    
                         Like
 
                     </div>
                     <div className="fb-comments">
-                        <i className="fa fa-comment-o fa-lg"></i>
+                        <i className="far fa-comment"></i>
                         Comment
 
                     </div>
@@ -72,20 +75,23 @@ const Post = (props) => {
 
             </div>
            
+           {/* comment section */}
+
            <div className="comment-section">
                <div className="fa-cm-avatar">
                    <img src="http://booproweb.com/img/booproweb-logo2.png" alt=""/>
 
                </div>
                <div className="fa-ppl-like">
-                   <i className="fa fa-thumbs-up fa-lg"></i>
+               <i class="far fa-thumbs-up"></i>
                    raifurrahim, Hridoy Khan,Shuvo and another 100,480 people
 
                </div>
                <div className="footer-comment">
                    <div className="fa-bottom-bar">
                        <div className="fa-cm-input">
-                           <input type="text" placeholder="comment here"/>
+                          
+                           <Comment name={cName}> <input type="text" placeholder="comment here"/></Comment>
 
                        </div>
                    </div>

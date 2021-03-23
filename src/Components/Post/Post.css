@@ -4,7 +4,7 @@
 .facebook-wrap{
     position:relative;
     width: 510px;
-    height: 295px;
+    height: 395px;
     border: solid 1px #ddd;
     margin: 20px auto;
 }
@@ -107,6 +107,7 @@
     cursor: pointer;
 }
 .main-share{
+    padding: 5px;
     border:solid 1px #ddd;
     margin: -10px 15px;
     box-shadow: 1px 1px 1px #ddd;
@@ -159,6 +160,8 @@
     font-size: 14px;
 }
 .fb-share{
+    
+    
     position: absolute;
     top: 110%;
     left: 260px;
@@ -190,6 +193,7 @@
 }
 .fa-cm-input input{
     border: none;
+   
     margin-left: 15px;
     width: 250px;
 }
